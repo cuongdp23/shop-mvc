@@ -1,0 +1,53 @@
+﻿@model List<WebsiteBanHang.Context.Product>
+    @{
+        ViewBag.Title = "Detail";
+    }
+
+    <section class="section-content bg-white padding-y">
+        <div class="container">
+            <div class="row">
+                <aside class="col-md-6">
+                    <a href="#" style="background: white">
+                        <img width="500" height="450" src="~/Content/images/items/2.jpg">
+                    </a>
+                </aside>
+                <main class="col-md-6">
+                    <article class="product-info-aside">
+
+                        <h2 class="title mt-3">Áo phông nam</h2>
+
+                        <div class="rating-wrap my-3">
+                            <small class="label-rating text-muted">MÃ SP:8TS23A002</small>
+                        </div> <!-- rating-wrap.// -->
+
+                        <div class="mb-3">
+                            <var class="price h4">149.000 ₫</var>
+                        </div> <!-- price-detail-wrap .// -->
+
+                        <p>✓ Miễn phí giao hàng Cho đơn hàng từ 499.000đ</p>
+                        <p>✓ Đổi trả miễn phí trong vòng 30 ngày kể từ ngày mua</p>
+
+                        <div class="form-row  mt-4">
+                            <div class="form-group col-md flex-grow-0">
+                                <div class="input-group mb-3 input-spinner">
+                                    <div class="input-group-prepend">
+                                        <button class="btn btn-light" type="button" id="button-plus"> + </button>
+                                    </div>
+                                    <input type="text" class="form-control" value="1">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-light" type="button" id="button-minus"> &minus; </button>
+                                    </div>
+                                </div>
+                            </div> <!-- col.// -->
+                            <div class="form-group col-md">
+                                <a href="#" class="btn  btn-primary">
+                                    <i class="fas fa-shopping-cart"></i> <span class="text">Thêm vào giỏ hàng</span>
+                                </a>
+                            </div> <!-- col.// -->
+                        </div> <!-- row.// -->
+
+                    </article> <!-- product-info-aside .// -->
+                </main> <!-- col.// -->
+            </div><!-- row.// -->
+        </div>
+    </section>

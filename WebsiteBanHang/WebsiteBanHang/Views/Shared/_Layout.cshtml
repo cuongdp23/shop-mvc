@@ -1,0 +1,140 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="cache-control" content="max-age=604800" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Website title - bootstrap html template</title>
+
+    <link href="~/Content/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <!-- jQuery -->
+    <script src="~/Scripts/js/jquery-2.0.0.min.js" type="text/javascript"></script>
+
+    <!-- Bootstrap4 files-->
+    <script src="~/Scripts/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <link href="~/Content/css/bootstrap.css" rel="stylesheet" type="text/css" />
+
+    <!-- Font awesome 5 -->
+    <link href="fonts/fontawesome/~/Content/all.min.css" type="text/css" rel="stylesheet">
+
+    <!-- custom style -->
+    <link href="~/Content/css/ui.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/responsive.css" rel="stylesheet" type="text/css" />
+
+    <!-- custom javascript -->
+    <script src="~/Scripts/js/script.js" type="text/javascript"></script>
+
+    
+</head>
+<body>
+    <nav class="navbar d-none d-md-flex p-md-0 navbar-expand-sm navbar-light border-bottom">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarTop4">
+                <ul class="navbar-nav mr-auto">
+                    <li><a href="/Login/Login" class="nav-link"> Đăng nhập </a></li>
+                    <li><a href="/Register/Register" class="nav-link"> Đăng ký </a></li>
+                </ul> <!-- list-inline //  -->
+            </div> <!-- navbar-collapse .// -->
+        </div> <!-- container //  -->
+    </nav>
+
+    <header class="section-header">
+        <div class="container">
+            <section class="header-main border-bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-3 col-md-12">
+                            <a href="http://bootstrap-ecommerce.com" class="brand-wrap">
+                                <img class="logo" src="~/Content/images/logo.png">
+                            </a> <!-- brand-wrap.// -->
+                        </div>
+                        <div class="col-xl-6 col-lg-5 col-md-6">
+                            <form action="#" class="search-header">
+                                <div class="input-group w-100">  
+                                    <input type="text" class="form-control" placeholder="Search">
+
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" type="submit">
+                                            <i class="fa fa-search"></i> Search
+                                        </button>
+                                    </div>
+                                </div>
+                            </form> <!-- search-wrap .end// -->
+                        </div>
+                    </div> <!-- row.// -->
+                </div>
+            </section> <!-- header-main .// -->
+            <nav class="navbar navbar-main navbar-expand pl-0">
+                <div class="container">
+                    <div class="collapse navbar-collapse" id="navbarTop4">
+                        <ul class="navbar-nav mr-auto">
+                            <li><a href="/Home/Index">Trang chủ</a></li>
+                            <li><a href="/DSThoiTrang/DSThoiTrang">Thời trang </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> <!-- navbar-main  .// -->
+
+        </div> <!-- container.// -->
+    </header> <!-- section-header.// -->
+    @RenderBody()
+    <footer class="section-footer bg-secondary text-white">
+        <div class="container">
+            <section class="footer-top  padding-y-lg">
+                <div class="row">
+                    <aside class="col-md-4 col-12">
+                        <article class="mr-md-4">
+                            <h5 class="title">Về chúng tôi</h5>
+                            <ul class="list-icon">
+                                <li> <i class="icon fa fa-map-marker"> </i>Câu chuyện thương hiệu </li>
+                                <li> <i class="icon fa fa-envelope"> </i>Tin tức</li>
+                                <li> <i class="icon fa fa-phone"> </i>Tuyển dụng</li>
+                                <li> <i class="icon fa fa-clock"> </i>Liên hệ</li>
+                            </ul>
+                        </article>
+                    </aside>
+                    <aside class="col-md col-6">
+                        <h5 class="title">Chính sách bán hàng</h5>
+                        <ul class="list-unstyled">
+                            <li> <a href="#">Chính sách đổi hàng</a></li>
+                            <li> <a href="#">Chính sách bảo hành</a></li>
+                            <li> <a href="#">Chính sách giao nhận</a></li>
+                            <li> <a href="#">Chính sách bảo mật</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-md col-6">
+                        <h5 class="title">Tư vấn</h5>
+                        <ul class="list-unstyled">
+                            <li> <a href="#">Tư vấn chọn side</a></li>
+                            <li> <a href="#">Tư vấn phong cách</a></li>
+                            <li> <a href="#">Hỏi đáp</a></li>
+                        </ul>
+                    </aside>
+                    <aside class="col-md-4 col-12">
+                        <h5 class="title">Theo dõi bản tin của chúng tôi</h5>
+                        <form class="form-inline mb-3">
+                            <input type="text" placeholder="Email" class="border-0 w-auto form-control" name="">
+                            <button class="btn ml-2 btn-warning"> Subscribe</button>
+                        </form>
+
+                        <p class="text-white-50 mb-2">Kết nối với chúng tôi</p>
+                        <div>
+                            <a href="#" class="btn btn-icon btn-outline-light"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="btn btn-icon btn-outline-light"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-icon btn-outline-light"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-icon btn-outline-light"><i class="fab fa-youtube"></i></a>
+                        </div>
+
+                    </aside>
+                </div> <!-- row.// -->
+            </section>	<!-- footer-top.// -->
+        </div><!-- //container -->
+    </footer>
+    <!-- ========================= FOOTER END // ========================= -->
+
+
+</body>
+</html>
