@@ -1,6 +1,6 @@
 # 🛍️ Shop Management System (ASP.NET MVC)
 
-A basic web-based application to manage a shop's inventory and customers. Built using ASP.NET MVC and connected to SQL Server.
+A basic e-commerce web application for selling products, managing inventory and customers. Built using ASP.NET MVC and connected to SQL Server.
 
 ## ✅ Features
 
